@@ -27,7 +27,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        getSupportActionBar().setTitle("Aplikasi Pemanggil Ambulance");
+        getSupportActionBar().setTitle("Aplikasi Darurat Bencana");
         RelativeLayout btn_sos = (RelativeLayout)findViewById(R.id.btn_sos);
         btn_sos.setOnClickListener(new View.OnClickListener() {
             @Override
